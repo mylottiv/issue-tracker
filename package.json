@@ -1,0 +1,29 @@
+{
+  "name": "issue-tracker",
+  "version": "1.0.0",
+  "description": "Real-time issue and bug tracking wrapper for Javascript.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mylottiv/issue-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mylottiv/issue-tracker/issues"
+  },
+  "homepage": "https://github.com/mylottiv/issue-tracker#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {}
+}
